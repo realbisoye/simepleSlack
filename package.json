@@ -1,0 +1,46 @@
+{
+  "name": "simpleSlack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ipad": "yarn run lint && node_modules/.bin/react-native run-ios --simulator='iPad Air 2'",
+    "lint": "node_modules/.bin/eslint ./*.js ./**/*.js --env es6",
+    "start": "yarn run lint && node node_modules/react-native/local-cli/cli.js start",
+    "test": "yarn run lint && jest __tests__",
+    "ios": "yarn run lint && react-native run-ios",
+    "android": "yarn run lint && react-native run-android"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.4",
+    "react-native-vector-icons": "^6.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "jsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(jsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  }
+}
