@@ -1,17 +1,25 @@
 import React from 'react'
-import {Text, TouchableOpacity, View} from 'react-native'
-import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons'
+import {Text, TouchableOpacity, Image, View} from 'react-native'
+import Icon from 'react-native-vector-icons/MaterialIcons'
 import styles from './styles'
 
-const AppBar = (props) => (
-  <View style={styles.appBar}
-  >
-    <TouchableOpacity testID={'menuButton'}>
-      <Icon name={'menu'} size={25} />
-    </TouchableOpacity>
-    <Text testID={'appTitle'} style={styles.appBarTitle}>
-      {'Simple Slack'}
-    </Text>
+const AppBar = () => (
+  <View style={styles.appBar}>
+    <View style={styles.orgDetails}>
+      <TouchableOpacity testID={'menuButton'}>
+        <Image
+          source={require('../../assets/slackbot.png')}
+          style={styles.logo}
+        />
+      </TouchableOpacity>
+      <Text testID={'appTitle'} style={styles.appBarTitle}>
+        {'SimpleSlack'}
+      </Text>
+    </View>
+    <View style={styles.icons}>
+      <Icon size={25} name={'search'} color={'#FFFFFF'}/>
+      <Icon size={25} name={'more-vert'} color={'#FFFFFF'}/>
+    </View>
   </View>
 )
 
