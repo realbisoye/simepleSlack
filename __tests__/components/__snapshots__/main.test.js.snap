@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Main component correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#3F0F3F",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3F0F3F",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "maxHeight": "6%",
+        "paddingBottom": 10,
+        "paddingHorizontal": 10,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="menuButton"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/slackbot.png",
+            }
+          }
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": "500",
+            "marginLeft": 10,
+            "zIndex": 1000,
+          }
+        }
+        testID="appTitle"
+      >
+        SimpleSlack
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Icon
+        color="#FFFFFF"
+        name="search"
+        size={25}
+      />
+      <Icon
+        color="#FFFFFF"
+        name="more-vert"
+        size={25}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+        "height": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#DFDFDF",
+          "borderBottomWidth": 0.2,
+          "borderColor": "#808080",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": 5,
+          "width": "100%",
+          "zIndex": 1000,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Icon
+          color="#006D56"
+          name="check-circle"
+          size={15}
+        />
+        <Text
+          style={
+            Object {
+              "marginLeft": 10,
+            }
+          }
+        >
+          Jon Mctay
+        </Text>
+      </View>
+      <Icon
+        color="#808080"
+        name="keyboard-arrow-down"
+        size={20}
+      />
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "paddingHorizontal": 20,
+          "paddingVertical": 25,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#DCDDDF",
+        "borderTopWidth": 0.5,
+        "bottom": 0,
+        "flex": 1,
+        "flexDirection": "column",
+        "maxHeight": 100,
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "marginBottom": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <Icon
+        color="#808080"
+        name="insert-emoticon"
+        size={25}
+      />
+      <Icon
+        color="#808080"
+        name="photo-camera"
+        size={25}
+      />
+      <Icon
+        color="#808080"
+        name="insert-photo"
+        size={25}
+      />
+      <Icon
+        color="#808080"
+        name="attach-file"
+        size={25}
+      />
+      <Icon
+        color="#808080"
+        name="crop-3-2"
+        size={25}
+      />
+      <Icon
+        color="#808080"
+        name="email"
+        size={25}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="sentences"
+        multiline={true}
+        onChangeText={[Function]}
+        placeholder="Reply"
+        placeholderTextColor="#A9A9A9"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "flex": 1,
+            "maxHeight": 120,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Icon
+          color="#DCDDDF"
+          name="send"
+          size={30}
+        />
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

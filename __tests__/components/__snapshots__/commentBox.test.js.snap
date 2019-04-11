@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CommentBox component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#DCDDDF",
+      "borderTopWidth": 0.5,
+      "bottom": 0,
+      "flex": 1,
+      "flexDirection": "column",
+      "maxHeight": 100,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+  >
+    <Icon
+      color="#808080"
+      name="insert-emoticon"
+      size={25}
+    />
+    <Icon
+      color="#808080"
+      name="photo-camera"
+      size={25}
+    />
+    <Icon
+      color="#808080"
+      name="insert-photo"
+      size={25}
+    />
+    <Icon
+      color="#808080"
+      name="attach-file"
+      size={25}
+    />
+    <Icon
+      color="#808080"
+      name="crop-3-2"
+      size={25}
+    />
+    <Icon
+      color="#808080"
+      name="email"
+      size={25}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="sentences"
+      multiline={true}
+      onChangeText={[Function]}
+      placeholder="Reply"
+      placeholderTextColor="#A9A9A9"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "flex": 1,
+          "maxHeight": 120,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Icon
+        color="#DCDDDF"
+        name="send"
+        size={30}
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders comment component correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingVertical": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/slackbot.png",
+      }
+    }
+    style={
+      Object {
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "marginLeft": 5,
+        "marginTop": 7,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+            "marginRight": 5,
+          }
+        }
+        testID="appTitle"
+      >
+        John Legend
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+          }
+        }
+        testID="appTitle"
+      >
+        7:15 PM
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#404040",
+        }
+      }
+    >
+      Hi
+    </Text>
+  </View>
+</View>
+`;
