@@ -4,7 +4,7 @@ import Main from './app/components/main'
 export default class App extends Component {
   render() {
     return (
-        <Main />
+      <Main />
     )
   }
 }
